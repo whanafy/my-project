@@ -27,7 +27,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v4
       name: Build & push Docker image
       with:
-        image: whanafy/my-project
+        image: wsalem/my-project
         tag: latest
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
